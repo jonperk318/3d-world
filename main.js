@@ -33,8 +33,8 @@ scene.background = skyTexture;
 function animate() {
   requestAnimationFrame(animate);
 
-  torus.rotation.x += 0.05;
-  torus.rotation.y += 0;
+  torus.rotation.x += 0.03;
+  torus.rotation.y += 0.01;
   torus.rotation.z += 0;
 
   // controls.update();
